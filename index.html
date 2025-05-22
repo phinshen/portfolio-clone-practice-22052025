@@ -21,6 +21,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
+    <script src="https://kit.fontawesome.com/7856f408f8.js" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
@@ -33,7 +34,7 @@
             <!-- ----------------------------text column---------------------------------- -->
             <div class="col-md-7">
               <h1 class="name font-weight-bold mb-1">Simon Doe</h1>
-              <p>Senior Software Engineer</p>
+              <p class="fw-semibold">Senior Software Engineer</p>
               <p>
                 I'm a software engineer specialised in frontend and backend
                 development for complex scalable web apps. I write about
@@ -81,33 +82,147 @@
           </p>
         </div>
       </div>
+      <!-- -------------what i do column section-------------------------- -->
       <section>
         <div class="container text-left my-4">
           <div class="row">
+            <!-- ----------------------first row - what i do section--------------- -->
             <div class="col-md-3">
               <div>
                 <i class="bi bi-javascript text-primary fs-3"></i>
                 <h6 class="mt-2">Vanilla JavaScript</h6>
-                <p id="vanilla-javascript">
+                <p>
                   List skills/technologies here. You can change the icon above
                   to any of the 2000+ FontAwesome 5 free icons available. Aenean
                   commodo ligula eget dolor.
                 </p>
               </div>
-              1 of 4
+            </div>        
+            <div class="col-md-3 my-2">
+              <i class="fa-brands fa-angular fs-3" style="color: #f00000;"></i>
+              <i class="fa-brands fa-react fs-3" style="color: #73ecfc;"></i>
+              <i class="fa-brands fa-vuejs fs-3" style="color: #63E6BE;"></i>
+              <h6 class="mt-2">Angular, React & Vue</h6>
+              <p>
+                List skills/technologies here. You can change the icon above
+                to any of the 2000+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
             </div>
-            <!-- -------------what i do column section-------------------------- -->
-            <div class="col-md-3">2 of 4</div>
-            <div class="col-md-3">3 of 4</div>
-            <div class="col-md-3">3 of 4</div>
+
+            <div class="col-md-3 my-2">
+              <i class="fa-brands fa-node-js fs-3" style="color: #63E6BE;"></i>
+              <h6 class="mt-2">Node.js</h6>
+              <p>
+                List skills/technologies here. You can change the icon above
+                to any of the 2000+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+            </div>
+
+            <div class="col-md-3 my-2">
+              <i class="fa-brands fa-python fs-3" style="color: #74C0FC;"></i>
+              <h6 class="mt-2">Python & Django</h6>
+              <p>
+                List skills/technologies here. You can change the icon above
+                to any of the 2000+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+            </div>
           </div>
-          <div class="row">
-            <div class="col-md-3">1 of 4</div>
-            <div class="col-md-3">2 of 4</div>
-            <div class="col-md-3">3 of 4</div>
-            <div class="col-md-3">4 of 4</div>
+          <!-- -----------------------second row - what i do section-------------------------- -->
+          <div class="row my-4">
+            <div class="col-md-3">
+              <div>
+                <i class="fa-brands fa-php fs-2" style="color: #74C0FC;"></i>
+                <h6 class="mt-2">PHP</h6>
+                <p>
+                  List skills/technologies here. You can change the icon above
+                  to any of the 2000+ FontAwesome 5 free icons available. Aenean
+                  commodo ligula eget dolor.
+                </p>
+              </div>
+            </div>
+            
+            <div class="col-md-3 my-2">
+              <i class="fa-brands fa-npm fs-3" style="color: #ff5900;"></i>
+              <i class="fa-brands fa-gulp fs-3" style="color: #ff6600;"></i>
+              <i class="fa-brands fa-grunt fs-3" style="color: #FFD43B;"></i>
+              <h6 class="mt-2">npm, Gulp & Grunt</h6>
+              <p>
+                List skills/technologies here. You can change the icon above
+                to any of the 2000+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+            </div>
+
+            <div class="col-md-3 my-2">
+              <i class="fa-brands fa-html5 fs-3" style="color: #ff7b00;"></i>
+              <i class="fa-brands fa-css3-alt fs-3" style="color: #74C0FC;"></i>
+              <h6 class="mt-2">HTML & CSS</h6>
+              <p>
+                List skills/technologies here. You can change the icon above
+                to any of the 2000+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+            </div>
+
+            <div class="col-md-3 my-2">
+              <i class="fa-brands fa-sass fs-3" style="color: #B197FC;"></i>
+              <i class="fa-brands fa-less fs-3" style="color: #576aff;"></i>
+              <h6 class="mt-2">Sass & LESS</h6>
+              <p>
+                List skills/technologies here. You can change the icon above
+                to any of the 2000+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+            </div>
           </div>
         </div>
+      </section>
+      <!-- ----------------------projects--------------------------- -->
+      <div class="container text-start">
+        <div class="row align-items-center">
+          <h1 class="border-start border-5 border-primary ps-3 ms-3">
+           Featured Projects
+          </h1>
+        </div>
+      </div>
+      <!-- --------------------------feature project column------------------------- -->
+      <section>
+        <div class="row row-cols-1 row-cols-md-2 g-4 ms-3 my-1">
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </section>
     </main>
   </body>
